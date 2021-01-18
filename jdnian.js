@@ -525,7 +525,7 @@ function requireConfig() {
     //Node.js用户请在jdCookie.js处填写京东ck;
     const shareCodes = []
     console.log(`共${cookiesArr.length}个京东账号\n`);
-    $.shareCodesArr = [`cgxZdySKJbjT7AjMC0nljEdKlHbtMG4Z4Wkm6JoM`,`cgxZdTXtbtCtm2m1YGbWuyk243cGFv2Vzs4n-KA3cijEZtE3SCN68UI`];
+    $.shareCodesArr = [`cgxZdTXtbtCtm2m1YGbWuyk243cGFv2Vzs4n-KA3cijEZtE3SCN68UI`];
     if ($.isNode()) {
       Object.keys(shareCodes).forEach((item) => {
         if (shareCodes[item]) {
