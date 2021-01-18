@@ -40,8 +40,8 @@ if ($.isNode()) {
 }
 const JD_API_HOST = 'https://api.m.jd.com/client.action';
 const inviteCodes = [
-  `cgxZaDXWZPCmiUa2akPVmFMI27K6antJzucULQPYNim_BPEW1Dwd@cgxZdTXtIrPYuAqfDgSpusxr97nagU6hwFa3TXxnqM95u3ib-xt4nWqZdz8@cgxZdTXtIO-O6QmYDVf67KCEJ19JcybuMB2_hYu8NSNQg0oS2Z_FpMce45g@cgxZdTXtILiLvg7OAASp61meehou4OeZvqbjghsZlc3rI5SBk7b3InUqSQ0`,
-  `cgxZaDXWZPCmiUa2akPVmFMI27K6antJzucULQPYNim_BPEW1Dwd@cgxZdTXtIrPYuAqfDgSpusxr97nagU6hwFa3TXxnqM95u3ib-xt4nWqZdz8@cgxZdTXtIO-O6QmYDVf67KCEJ19JcybuMB2_hYu8NSNQg0oS2Z_FpMce45g@cgxZdTXtILiLvg7OAASp61meehou4OeZvqbjghsZlc3rI5SBk7b3InUqSQ0`
+  `cgxZdySKJbjT7AjMC0nljEdKlHbtMG4Z4Wkm6JoM@cgxZdTXtbtCtm2m1YGbWuyk243cGFv2Vzs4n-KA3cijEZtE3SCN68UI`,
+  `cgxZdySKJbjT7AjMC0nljEdKlHbtMG4Z4Wkm6JoM@cgxZdTXtbtCtm2m1YGbWuyk243cGFv2Vzs4n-KA3cijEZtE3SCN68UI`
 ];
 !(async () => {
   await requireConfig();
@@ -523,7 +523,7 @@ function requireConfig() {
   return new Promise(resolve => {
     console.log(`开始获取${$.name}配置文件\n`);
     //Node.js用户请在jdCookie.js处填写京东ck;
-    const shareCodes = [`cgxZdySKJbjT7AjMC0nljEdKlHbtMG4Z4Wkm6JoM`]
+    const shareCodes = []
     console.log(`共${cookiesArr.length}个京东账号\n`);
     $.shareCodesArr = [];
     if ($.isNode()) {
