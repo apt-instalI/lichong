@@ -523,9 +523,9 @@ function requireConfig() {
   return new Promise(resolve => {
     console.log(`开始获取${$.name}配置文件\n`);
     //Node.js用户请在jdCookie.js处填写京东ck;
-    const shareCodes = []
+    const shareCodes = [cgxZdTXtbtCtm2m1YGbWuyk243cGFv2Vzs4n-KA3cijEZtE3SCN68UI]
     console.log(`共${cookiesArr.length}个京东账号\n`);
-    $.shareCodesArr = [cgxZdTXtbtCtm2m1YGbWuyk243cGFv2Vzs4n-KA3cijEZtE3SCN68UI];
+    $.shareCodesArr = [];
     if ($.isNode()) {
       Object.keys(shareCodes).forEach((item) => {
         if (shareCodes[item]) {
